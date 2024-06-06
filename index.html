@@ -4,30 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     
+
+   
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
-    <title>Portfolio</title>
+     <title>Portfolio</title>
 </head>
 <body>
     <header>
         <div class="sec1"> <h4>Portfo<span class="redder">lio</span></h4></div>
        <div class="sec2">
-        <p class="hid1">ABOUT</p>
-        <p class="hid2">Service</p>
-        <p class="hid3">PROJECTS</p>
-        <p class="hid4">CONTACTS</p>
+        <a href="#mybio"><p class="hid1">ABOUT</p></a>
+        <a href="#myserv"> <p class="hid2">SERVICE</p></a>
+            <a href="#mypro"> <p class="hid3">PROJECTS</p></a>
+                <a href="#mycont"><p class="hid4">CONTACTS</p></a>
     </div>
    </header>
-   <div class="sec3">
-<div class="cont1">
+   <div class="sec3" >
+<div class="cont1"  data-aos="zoom-in-left">
    <h2>Hello, I`m</h2>
    <h1 >Raqeeb Akanmu</h1>
    <h2> I`m a Passionate <span class="redder auto-type">Frontend Developer</span></h2>
    <p>I design and develop services for customers of all sites. <br>Specialize in creating, styling modern websites, web services and online stores.</p>
 </div>
-<div class="cont2">
+<div class="cont2" data-aos="zoom-out-right">
 <div class="box">
         <div class="in">
            
@@ -35,31 +40,87 @@
     </div> 
 </div>
    </div>
-   <h1 class="redder" style="text-align: center;">About Me</h1>
-   <div class="sec3">
+  <h1 class="redder" data-aos="zoom-in-up" style="text-align: center;" id="mybio"  >About Me</h1>
+   <div class="sec3" data-aos="zoom-out-left">
 
 <div class="conta1">
-    <h2 style="font-size: 28px;">I`m a Freelancer Frontend Developer with less than a year experience</h2>
-    <p>I`m a Freelancer Frontend Developer with less than a year experience. I`m from Nigeria.I code and create Websites for amazing people around the world. I like working with new people,new work new experience.</p>
+    <h2 style="font-size: 28px;">I`m a Freelancer Frontend Developer with more than Two years experience</h2>
+    <p> I`m from Nigeria.I code and create Websites for amazing people around the world. I like working with new people,new work new experience.</p>
    
 </div>
 
    </div>
-   <h1 class="redder" style="text-align: center;">My Service</h1>
+   <h1 class="redder"  data-aos="zoom-in-up"style="text-align: center;" id="mypro">These are my completed projects</h1>
+
+
+   <div class="projector" data-aos="zoom-out-right">
+    <a href=""><div class="packer">
+        <a href="https://harlemnaturalhairsalon.com/"><div class="serinfo" style="background-image: url(./img/Default_front_of_a_hair_salon_0.jpg);background-size: cover;background-repeat: no-repeat;"></div></a>
+        <div class="sertext">Hair Salon</div>
+    </div></a>
+
+   <a href=""> <div class="packer">
+    <a href="https://www.cafe1904.co.za/"> <div class="serinfo" style="background-image: url(./img/Default_entrance_of_a_food_resturant_1.jpg);background-size: cover;background-repeat: no-repeat;"></div></a>
+        <div class="sertext">Food Resturant Website</div>
+    </div></a>
+
+    <a href=""><div class="packer">
+       <a href="https://mantletattoo.com/"><div class="serinfo" style="background-image: url(./img/Default_entrance_of_a_tatoo_store_0.jpg);background-size: cover;background-repeat: no-repeat;"></div></a> 
+        <div class="sertext">Tatoo Store</div>
+    </div>
+
+    <a href=""><div class="packer">
+        <div class="serinfo" style="background-image: url(./img/IMG_6610.JPG);background-size: cover;background-repeat: no-repeat;"></div>
+        <div class="sertext"> ....</div>
+    </div></a>
+
+   <a href=""> <div class="packer">
+        <div class="serinfo" style="background-image: url(./img/IMG_6610.JPG);background-size: cover;background-repeat: no-repeat;"></div>
+        <div class="sertext">.....</div>
+    </div></a>
+
+    
+      
+   
+      
+      
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <h1 class="redder" data-aos="zoom-in-up"style="text-align: center;" id="myserv">My Service</h1>
    <div class="sec4">
-<div class="cont4">
+<div class="cont4" data-aos="zoom-out-left" >
     <i class="fa-solid fa-mobile-screen-button redder" style="font-size: 30px;"></i>
     <h2 style="color: white;font-size: 20px;font-weight: bold;">Web Design</h2>
 <p style="color: lightslategray;">I design websites and pages to reflect a company`s brand, information and ensure a user-friendly experience </p>
 
 </div>
-<div class="cont4">
+<div class="cont4" data-aos="zoom-out-right">
     <i class="fa-regular fa-circle-check redder" style="font-size: 30px;"></i>
     <h2 style="color: white;font-size: 20px;font-weight: bold;">Web Development</h2>
 <p style="color: lightslategray;">I Create, Build, and Maintain websites that run on a browser</p>
 
 </div>
-<div class="cont4">
+<div class="cont4" data-aos="zoom-out-left">
     <i class="fa-solid fa-pencil redder " style="font-size: 30px"></i>
     <h2 style="color: white;font-size: 20px;font-weight: bold;">Creative Design</h2>
 <p style="color: lightslategray;">I would Create a strong impression, build a brand identity, convey key information, Narrate Your Story,and build greate trust for your clients</p>
@@ -69,11 +130,10 @@
 </div>
 
    </div>
-   <h1 class="redder" style="text-align: center;">Contact Me!</h1>
+   <h1 class="redder" style="text-align: center;" id="mycont">Contact Me!</h1>
    <div class="sec5">
     <div class="cont5">
         <h2 style="color: white;font-size: 20px;font-weight: bold;">If you have any Project in your mind</h2>
-        <p style="color: lightslategray;">I`m a Frontend Developer.I Design, Develop and Maintain Websites</p>
         <p style="color: lightslategray;">Tel:: <span style="color: white; font-weight: bold;"> +2348122403590</span></p>
         <p style="color: lightslategray;">Email:: <span style="color: white; font-weight: bold;">akanmuraqeeb820@gmail.com</span></p>
         <div class="insec5">
@@ -86,6 +146,17 @@
 
     </div>
    </div>
+
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+</script>
+
+<script>
+
+   
+ AOS.init();
+
+ 
+</script>
 </body>
 
 </html>

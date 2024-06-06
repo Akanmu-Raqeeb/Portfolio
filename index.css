@@ -53,6 +53,9 @@ header li{
         width:100% ;
        }
 }
+.sec2 a{
+    cursor: pointer;
+}
 @media  (max-width:500px) {
 
     header li{
@@ -115,7 +118,7 @@ h4{
     padding-top: 100px;
 }
 .conta1{
-    height: 400px;
+    height: 150px;
     width: 100%;
     text-align: center;
     
@@ -282,4 +285,51 @@ transform: rotate(360deg);
     header{
         font-size: 12px;
     }
+    #mypro{
+        margin-top: 80px;
+    }
+}
+a{
+    text-decoration: none;
+}
+
+.projector{
+    max-height: 270px;
+    
+    display: flex;
+    
+    
+    overflow-x: auto;
+    
+   
+    text-align: center;
+}
+.projector::-webkit-scrollbar{
+    width: 0%;
+}
+
+.serinfo{
+    height: 200px;
+    min-width: 280px;
+    border-radius: 2px;
+    background-color:white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5px;
+    border: 2px dashed red;
+    
+}
+
+
+
+.sertext{
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    font-size: 15px;
+    font-style: italic;
+    margin: 1px;
+    color: white;
+
 }
